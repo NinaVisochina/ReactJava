@@ -1,7 +1,7 @@
 // CategoryEditPage.tsx
 import React, { useEffect, useState } from 'react';
 import { useForm } from 'antd/es/form/Form';
-import { ICategoryCreate } from './types';
+import { ICategoryCreate } from '../create/types';
 import { Button, Form, Input, Modal, Row, Upload, UploadFile } from 'antd';
 import { useNavigate, useParams } from 'react-router-dom';
 import TextArea from 'antd/es/input/TextArea';
